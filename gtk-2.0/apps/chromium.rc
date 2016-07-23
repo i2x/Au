@@ -1,0 +1,19 @@
+# Google Chrome/Chromium theming (requires 9.0.597 or newer)
+style "chrome-gtk-frame"
+{
+    ChromeGtkFrame::frame-color = "#dedede"
+    ChromeGtkFrame::inactive-frame-color = "#dedede"
+    ChromeGtkFrame::incognito-frame-color = "#dedede"
+    ChromeGtkFrame::incognito-inactive-frame-color = "#dedede"
+
+    ChromeGtkFrame::frame-gradient-size = "#dedede"
+    ChromeGtkFrame::frame-gradient-color = "#dedede"
+    ChromeGtkFrame::inactive-frame-gradient-color = "#dedede"
+    ChromeGtkFrame::incognito-frame-gradient-color = "#dedede"
+    ChromeGtkFrame::incognito-inactive-frame-gradient-color = "#dedede"
+
+    ChromeGtkFrame::scrollbar-trough-color = @base_color
+    ChromeGtkFrame::scrollbar-slider-prelight-color = shade(0.92, @bg_color)
+    ChromeGtkFrame::scrollbar-slider-normal-color = @bg_color
+}
+class "ChromeGtkFrame"		style "chrome-gtk-frame"

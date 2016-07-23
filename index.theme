@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Au
+Comment=Au theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Au
+MetacityTheme=Au
+IconTheme=Au
+CursorTheme=DMZ-White
+ButtonLayout=:minimize,maximize,close
